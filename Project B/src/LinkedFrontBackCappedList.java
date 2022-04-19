@@ -250,7 +250,7 @@ public class LinkedFrontBackCappedList<T extends Comparable<? super T>> implemen
 				}
 			}
 			
-			//if exited the first while loop then one or the node chain is longer than the other
+			//if exited the first while loop then one of the node chain is longer than the other
 			int invokingIndexCounter = 0;
 			int paramIndexCounter = 0;			
 			while (currentNode != null) {
